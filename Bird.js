@@ -73,10 +73,10 @@ rect(windowWidth - 1800,windowHeight - 900,100,50)
 
 //Main Menu Button Logic
 
-if (mouseX >= windowWidth - 1800 && mouseX <= windowWidth - 1800 + 100 && mouseY >= windowHeight - 900 && mouseY >= windowHeight - 1800 + 50) {mmbtc = [190,190,190]}
+if (mouseX >= windowWidth - 1800 && mouseX <= windowWidth - 1800 + 100 && mouseY >= windowHeight - 900 && mouseY <= windowHeight - 900 + 50) {mmbtc = [190,190,190]}
 else {mmbtc = [255,255,255]}
 
-	mousePressed = function() {if (mouseX >= windowWidth - 1800 && mouseX <= windowWidth - 1800 + 100 && mouseY >= windowHeight - 900 && mouseY >= windowHeight - 1800 + 50) {wt = 1}}
+	mousePressed = function() {if (mouseX >= windowWidth - 1800 && mouseX <= windowWidth - 1800 + 100 && mouseY >= windowHeight - 900 && mouseY <= windowHeight - 900 + 50) {wt = 1}}
 fill(0)
 textSize(20)
 text("Main Menu", windowWidth - 1799,windowHeight - 870)
