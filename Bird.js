@@ -1,5 +1,5 @@
 Serverstatus = 1
-wt = 2
+wt = 1
 cbtc = [255,255,255]
 ebtc = [255,255,255]
 mmbtc = [255,255,255]
